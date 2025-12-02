@@ -50,7 +50,6 @@ class DayTwoSolver:
                         if pattern * (id_length // pattern_length) == possible_id:
                             invalid_ids += int(possible_id)
                             break
-                continue
         return invalid_ids
 
 
