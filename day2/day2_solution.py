@@ -26,7 +26,7 @@ class DayTwoSolver:
                     invalid_ids += int(possible_id)
         return invalid_ids
 
-    def find_largest_divisor(self, num) -> int | None:
+    def find_largest_divisor(self, num: int) -> int | None:
         if num == 1:
             return None
         for i in range(2, math.isqrt(num) + 1):
